@@ -1,1 +1,1 @@
-This is Mlops project 
+This is Mlops project kubernets pod updated.
