@@ -1,0 +1,23 @@
+artifact_path: /Users/girish/Documents/Mlops/mlops-house-price/mlruns/1/models/m-aedb7eb283bd41c8add79ddb14626e5b/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.3
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.16.1
+model_id: m-aedb7eb283bd41c8add79ddb14626e5b
+model_size_bytes: 7393
+model_uuid: m-aedb7eb283bd41c8add79ddb14626e5b
+prompts: null
+run_id: c4d775a82dea428cb7db16f589dad535
+utc_time_created: '2026-10-02 08:57:11.395529'
